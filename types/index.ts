@@ -279,6 +279,94 @@ export interface UrlSlugResult {
   suggestions?: string[];
 }
 
+export interface SitemapInput {
+  urls: string[];
+  changefreq?: 'always' | 'hourly' | 'daily' | 'weekly' | 'monthly' | 'yearly' | 'never';
+  priority?: number;
+  lastmod?: string;
+}
+
+export interface SitemapResult {
+  xml: string;
+  urlCount: number;
+  isValid: boolean;
+}
+
+export interface MetaTagsInput {
+  title: string;
+  description: string;
+  keywords?: string;
+  author?: string;
+  robots?: string;
+  ogTitle?: string;
+  ogDescription?: string;
+  ogImage?: string;
+  ogUrl?: string;
+  twitterCard?: string;
+  canonicalUrl?: string;
+}
+
+export interface MetaTagsResult {
+  html: string;
+  preview: string;
+  isValid: boolean;
+}
+
+export interface SchemaInput {
+  type: 'Article' | 'Product' | 'Organization' | 'WebSite' | 'FAQPage' | 'BreadcrumbList';
+  data: Record<string, any>;
+}
+
+export interface SchemaResult {
+  jsonLd: string;
+  isValid: boolean;
+  preview: string;
+}
+
+export interface PageSpeedInput {
+  url: string;
+}
+
+export interface PageSpeedResult {
+  score: number;
+  metrics: {
+    fcp?: number; // First Contentful Paint
+    lcp?: number; // Largest Contentful Paint
+    fid?: number; // First Input Delay
+    cls?: number; // Cumulative Layout Shift
+    ttfb?: number; // Time to First Byte
+  };
+  recommendations: string[];
+  isValid: boolean;
+}
+
+export interface SSLCheckerInput {
+  domain: string;
+}
+
+export interface SSLCheckerResult {
+  isValid: boolean;
+  issuer?: string;
+  validFrom?: string;
+  validTo?: string;
+  daysRemaining?: number;
+  grade?: string;
+  recommendations: string[];
+}
+
+export interface DomainAgeInput {
+  domain: string;
+}
+
+export interface DomainAgeResult {
+  domain: string;
+  registrationDate?: string;
+  ageInDays?: number;
+  ageInYears?: number;
+  isValid: boolean;
+  whoisData?: string;
+}
+
 // FAQ Schema Types
 export interface FAQItem {
   question: string;
