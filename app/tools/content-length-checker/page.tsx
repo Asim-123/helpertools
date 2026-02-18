@@ -233,7 +233,7 @@ export default function ContentLengthCheckerPage() {
         <p className="text-gray-600 dark:text-gray-400 mb-4">
           Content length is an important SEO factor, but quality always trumps quantity. Search engines 
           favor comprehensive, well-written content that thoroughly covers a topic. This tool helps you 
-          analyze your content's length and readability.
+          analyze your content&apos;s length and readability.
         </p>
         <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-3">
           Content Length Guidelines

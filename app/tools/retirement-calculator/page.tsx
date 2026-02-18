@@ -77,7 +77,7 @@ export default function RetirementCalculatorPage() {
               Retirement Calculator
             </h1>
             <p className="text-gray-600 dark:text-gray-400 mt-1">
-              Plan your retirement savings and see if you're on track
+              Plan your retirement savings and see if you&apos;re on track
             </p>
           </div>
         </div>

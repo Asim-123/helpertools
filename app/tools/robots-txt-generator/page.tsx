@@ -225,8 +225,8 @@ export default function RobotsTxtGeneratorPage() {
                 <li>Copy or download the generated robots.txt file</li>
                 <li>Upload it to the root directory of your website</li>
                 <li>Access it at: https://yourdomain.com/robots.txt</li>
-                <li>Test it using Google Search Console's robots.txt Tester</li>
-                <li>Monitor your crawl stats to ensure it's working correctly</li>
+                <li>Test it using Google Search Console&apos;s robots.txt Tester</li>
+                <li>Monitor your crawl stats to ensure it&apos;s working correctly</li>
               </ol>
             </div>
           </div>
@@ -278,7 +278,7 @@ export default function RobotsTxtGeneratorPage() {
         </h2>
         <p className="text-gray-600 dark:text-gray-400 mb-4">
           The robots.txt file is a simple but powerful tool for managing how search engines crawl 
-          your website. It's part of the Robots Exclusion Protocol, a standard used by websites to 
+          your website. It&apos;s part of the Robots Exclusion Protocol, a standard used by websites to 
           communicate with web crawlers and other automated agents.
         </p>
         <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-3">
@@ -287,7 +287,7 @@ export default function RobotsTxtGeneratorPage() {
         <ul className="list-disc list-inside text-gray-600 dark:text-gray-400 space-y-2">
           <li><strong>Test Before Deploy:</strong> Use Google Search Console to test your file</li>
           <li><strong>Include Sitemap:</strong> Help crawlers find all your important pages</li>
-          <li><strong>Don't Block CSS/JS:</strong> Google needs these to render pages properly</li>
+          <li><strong>Don&apos;t Block CSS/JS:</strong> Google needs these to render pages properly</li>
           <li><strong>Use for Efficiency:</strong> Block low-value pages to save crawl budget</li>
           <li><strong>Monitor Results:</strong> Check crawl stats to ensure proper behavior</li>
         </ul>

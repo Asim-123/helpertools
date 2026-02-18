@@ -230,7 +230,7 @@ export default function MortgageCalculatorPage() {
           Key Factors in Mortgage Calculations
         </h3>
         <ul className="list-disc list-inside text-gray-600 dark:text-gray-400 space-y-2">
-          <li><strong>Loan Amount:</strong> The total amount you're borrowing</li>
+          <li><strong>Loan Amount:</strong> The total amount you&apos;re borrowing</li>
           <li><strong>Interest Rate:</strong> The annual percentage rate charged by the lender</li>
           <li><strong>Loan Term:</strong> The number of years to repay the loan</li>
           <li><strong>Down Payment:</strong> Affects your loan amount and may eliminate PMI</li>

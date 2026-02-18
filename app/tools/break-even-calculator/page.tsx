@@ -260,7 +260,7 @@ export default function BreakEvenCalculatorPage() {
         </h2>
         <p className="text-gray-600 dark:text-gray-400 mb-4">
           Break-even analysis helps you determine how many units you need to sell to cover all your costs. 
-          It's essential for pricing decisions, business planning, and understanding your business's financial health.
+          It&apos;s essential for pricing decisions, business planning, and understanding your business&apos;s financial health.
         </p>
         <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-3">
           Key Concepts

@@ -270,7 +270,7 @@ export default function CompoundInterestCalculatorPage() {
           The Power of Compound Interest
         </h2>
         <p className="text-gray-600 dark:text-gray-400 mb-4">
-          Albert Einstein reportedly called compound interest "the eighth wonder of the world." 
+          Albert Einstein reportedly called compound interest &quot;the eighth wonder of the world.&quot; 
           Unlike simple interest, compound interest allows your money to grow exponentially over time 
           as you earn interest on both your principal and previously earned interest.
         </p>

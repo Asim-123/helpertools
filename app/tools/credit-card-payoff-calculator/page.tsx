@@ -242,7 +242,7 @@ export default function CreditCardPayoffCalculatorPage() {
         </h2>
         <p className="text-gray-600 dark:text-gray-400 mb-4">
           Credit card debt can quickly spiral out of control due to high interest rates. This calculator 
-          shows you exactly how long it will take to pay off your debt and how much interest you'll pay 
+          shows you exactly how long it will take to pay off your debt and how much interest you&apos;ll pay 
           based on your monthly payment amount.
         </p>
         <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-3">
@@ -253,7 +253,7 @@ export default function CreditCardPayoffCalculatorPage() {
           <li><strong>Debt Avalanche:</strong> Pay off highest interest rate cards first</li>
           <li><strong>Debt Snowball:</strong> Pay off smallest balances first for motivation</li>
           <li><strong>Balance Transfer:</strong> Move debt to a 0% APR card (watch for fees)</li>
-          <li><strong>Stop Using Cards:</strong> Don't add new debt while paying off old debt</li>
+          <li><strong>Stop Using Cards:</strong> Don&apos;t add new debt while paying off old debt</li>
         </ul>
       </div>
 

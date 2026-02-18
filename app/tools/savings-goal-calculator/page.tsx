@@ -271,7 +271,7 @@ export default function SavingsGoalCalculatorPage() {
         <p className="text-gray-600 dark:text-gray-400 mb-4">
           Setting specific savings goals helps you stay focused and motivated. This calculator shows 
           you exactly how long it will take to reach your goal based on your monthly savings rate 
-          and the interest you'll earn.
+          and the interest you&apos;ll earn.
         </p>
         <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-3">
           Tips for Successful Saving

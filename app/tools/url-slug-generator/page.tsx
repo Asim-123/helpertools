@@ -260,7 +260,7 @@ export default function UrlSlugGeneratorPage() {
                 <li>• Keep slugs lowercase for consistency</li>
                 <li>• Avoid special characters and numbers when possible</li>
                 <li>• Make slugs readable and meaningful</li>
-                <li>• Don't change slugs after publishing (use redirects if needed)</li>
+                <li>• Don&apos;t change slugs after publishing (use redirects if needed)</li>
               </ul>
             </div>
           </div>
@@ -286,7 +286,7 @@ export default function UrlSlugGeneratorPage() {
           <li><strong>Keep It Short:</strong> Aim for 3-5 words (30-60 characters)</li>
           <li><strong>Use Hyphens:</strong> Separate words with hyphens, not underscores</li>
           <li><strong>Stay Consistent:</strong> Use lowercase throughout your site</li>
-          <li><strong>Avoid Stop Words:</strong> Remove unnecessary words like "the", "a", "an"</li>
+          <li><strong>Avoid Stop Words:</strong> Remove unnecessary words like &quot;the&quot;, &quot;a&quot;, &quot;an&quot;</li>
         </ul>
       </div>
 

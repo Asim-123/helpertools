@@ -212,7 +212,7 @@ export default function KeywordDensityCheckerPage() {
           How to Use Keyword Density Effectively
         </h2>
         <p className="text-gray-600 dark:text-gray-400 mb-4">
-          Keyword density is one factor in SEO, but it's not the most important. Modern search engines 
+          Keyword density is one factor in SEO, but it&apos;s not the most important. Modern search engines 
           use sophisticated algorithms that understand context and semantic meaning. Focus on creating 
           valuable content for users while naturally incorporating relevant keywords.
         </p>

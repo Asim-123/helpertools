@@ -50,8 +50,8 @@ export default function TermsPage() {
         <div className="prose prose-lg dark:prose-invert max-w-none">
           <section className="mb-8">
             <p className="text-gray-600 dark:text-gray-400 mb-4">
-              Please read these Terms of Service ("Terms") carefully before using {SITE_URL} 
-              (the "Service") operated by {SITE_NAME} ("us", "we", or "our").
+              Please read these Terms of Service (&quot;Terms&quot;) carefully before using {SITE_URL} 
+              (the &quot;Service&quot;) operated by {SITE_NAME} (&quot;us&quot;, &quot;we&quot;, or &quot;our&quot;).
             </p>
             <p className="text-gray-600 dark:text-gray-400">
               Your access to and use of the Service is conditioned on your acceptance of and 
@@ -102,7 +102,7 @@ export default function TermsPage() {
               3. Disclaimer of Warranties
             </h2>
             <p className="text-gray-600 dark:text-gray-400 mb-4">
-              <strong>THE SERVICE IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTIES OF ANY KIND, 
+              <strong>THE SERVICE IS PROVIDED &quot;AS IS&quot; AND &quot;AS AVAILABLE&quot; WITHOUT WARRANTIES OF ANY KIND, 
               EITHER EXPRESS OR IMPLIED.</strong>
             </p>
             <p className="text-gray-600 dark:text-gray-400 mb-4">

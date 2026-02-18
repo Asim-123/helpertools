@@ -54,8 +54,8 @@ export default function ContactPage() {
         </h1>
         
         <p className="text-xl text-gray-600 dark:text-gray-400 mb-12">
-          Have a question, suggestion, or feedback? We'd love to hear from you! 
-          Fill out the form below and we'll get back to you as soon as possible.
+          Have a question, suggestion, or feedback? We&apos;d love to hear from you! 
+          Fill out the form below and we&apos;ll get back to you as soon as possible.
         </p>
 
         <div className="grid md:grid-cols-3 gap-8 mb-12">
@@ -169,7 +169,7 @@ export default function ContactPage() {
             {submitStatus === 'success' && (
               <div className="bg-green-50 dark:bg-green-900/20 border border-green-200 dark:border-green-800 rounded-lg p-4">
                 <p className="text-green-800 dark:text-green-200">
-                  ✓ Thank you for your message! We'll get back to you soon.
+                  ✓ Thank you for your message! We&apos;ll get back to you soon.
                 </p>
               </div>
             )}
@@ -210,7 +210,7 @@ export default function ContactPage() {
                 Can I request a new tool?
               </h3>
               <p className="text-gray-600 dark:text-gray-400">
-                Absolutely! We're always looking for new tools to add. Use the "Feature Request" 
+                Absolutely! We&apos;re always looking for new tools to add. Use the &quot;Feature Request&quot; 
                 subject when submitting your message.
               </p>
             </div>
@@ -220,7 +220,7 @@ export default function ContactPage() {
               </h3>
               <p className="text-gray-600 dark:text-gray-400">
                 Yes, we provide support for all our tools. If you encounter any issues, please 
-                use the "Report a Bug" subject and include as much detail as possible.
+                use the &quot;Report a Bug&quot; subject and include as much detail as possible.
               </p>
             </div>
           </div>

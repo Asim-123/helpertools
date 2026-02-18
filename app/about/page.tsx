@@ -55,8 +55,8 @@ export default function AboutPage() {
               technical expertise or financial situation.
             </p>
             <p className="text-gray-600 dark:text-gray-400">
-              Whether you're calculating mortgage payments, planning for retirement, or optimizing 
-              your website for search engines, we're here to help you succeed.
+              Whether you&apos;re calculating mortgage payments, planning for retirement, or optimizing 
+              your website for search engines, we&apos;re here to help you succeed.
             </p>
           </section>
 
@@ -95,7 +95,7 @@ export default function AboutPage() {
               <li><strong>Accurate Calculations:</strong> Our calculators use industry-standard formulas to ensure accurate results</li>
               <li><strong>Easy to Use:</strong> Simple, intuitive interfaces that anyone can use, regardless of technical expertise</li>
               <li><strong>No Registration Required:</strong> Use our tools instantly without creating an account</li>
-              <li><strong>Privacy Focused:</strong> We don't store your personal information or calculation data</li>
+              <li><strong>Privacy Focused:</strong> We don&apos;t store your personal information or calculation data</li>
               <li><strong>Regular Updates:</strong> We continuously improve our tools and add new features based on user feedback</li>
             </ul>
           </section>
@@ -110,7 +110,7 @@ export default function AboutPage() {
               up-to-date, and easy to use.
             </p>
             <p className="text-gray-600 dark:text-gray-400">
-              If you have any questions, suggestions, or feedback, please don't hesitate to 
+              If you have any questions, suggestions, or feedback, please don&apos;t hesitate to 
               <a href="/contact" className="text-primary-600 dark:text-primary-400 hover:underline"> contact us</a>. 
               We value your input and are always looking for ways to improve.
             </p>
